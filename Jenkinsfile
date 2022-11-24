@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/Chinthan23/primality-jenkins.git'
+                git 'https://github.com/Chinthan23/primality-testing.git'
             }
         }
         stage('Build Code') {
