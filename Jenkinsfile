@@ -12,13 +12,13 @@ pipeline {
                 sh "./primality.py"
             }
         }
-        // stage('Test Set 1(Pass)') {
+        // stage('Test Set') {
         //     steps {
         //         sh "chmod u+x unittest1.py"
         //         sh "./unittest1.py"
         //     }
         // }
-        stage('Test Set 2(Fail)') {
+        stage('Test Set') {
             steps {
                 sh "chmod u+x unittest2.py"
                 sh "./unittest2.py"
