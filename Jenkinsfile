@@ -18,6 +18,11 @@ pipeline {
                 sh "./unittest1.py"
             }
         }
+        stage('Demo'){
+            steps{
+                echo "Hi"
+            }
+        }
         // stage('Test Set') {
         //     steps {
         //         sh "chmod u+x unittest2.py"
